@@ -21,8 +21,8 @@
 : ${PHONE_HW:=""}  # hardware (Ethernet) address for the interface (bridge only)
 
 # for NAT configuration
-: ${DNS1:=8.8.8.8}
-: ${DNS2:=8.8.4.4}
+: ${DNS1:=84.200.69.80}
+: ${DNS2:=84.200.70.40}
 
 # export ADB=/path/to/sdk/adb for custom adb
 ADB="${ADB:-adb} ${SERIAL:+-s $SERIAL}"
